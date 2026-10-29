@@ -1,0 +1,21 @@
+profile = "default"
+tick_interval_ms = 4
+
+[renderer]
+backend = "d3d11"
+box_color = [0, 255, 128, 220]
+skeleton = true
+health_bar = true
+max_distance_m = 400.0
+
+[aimbot]
+enabled = true
+fov_px = 180
+smoothing = 2.4
+bone = "head"
+max_speed_px = 42
+
+[bridge]
+process = "r5apex.exe"
+poll_hz = 240
+backend = "usermode"
