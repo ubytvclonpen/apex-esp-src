@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+*.spec
+.pytest_cache/
+.ruff_cache/
+.idea/
+.vscode/
+*.log
+config/offsets.json
+*.sys
+*.pdb
