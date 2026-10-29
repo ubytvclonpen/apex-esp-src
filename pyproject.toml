@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apex-esp-src"
+version = "0.4.2"
+description = "Apex Legends ESP / AIMBOT / SourceCode — Windows desktop overlay toolkit"
+requires-python = ">=3.11"
+authors = [{ name = "apex-esp-src contributors" }]
+dependencies = [
+    "numpy>=1.26",
+    "pywin32>=306 ; sys_platform == 'win32'",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+
+[project.scripts]
+apex-esp = "apex_esp.app.bootstrap:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
