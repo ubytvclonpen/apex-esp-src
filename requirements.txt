@@ -1,0 +1,4 @@
+tomli>=2.0 ; python_version < "3.11"
+pywin32>=306 ; sys_platform == "win32"
+numpy>=1.26
+pytest>=8.0
