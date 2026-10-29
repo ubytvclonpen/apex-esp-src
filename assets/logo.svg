@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0a0e12"/>
+  
+  <!-- Jawbone reticle: fractured predator jaw rendered as wireframe targeting system -->
+  
+  <!-- Outer targeting ring - broken octagon with sharp cuts -->
+  <path d="M128 20 L196 40 L236 108 L236 148 L196 216 L128 236 L60 216 L20 148 L20 108 L60 40 Z" 
+        fill="none" stroke="#c8d0d8" stroke-width="1.5" opacity="0.35"/>
+  
+  <!-- Inner targeting brackets - four corner crops -->
+  <path d="M40 60 L40 40 L60 40" fill="none" stroke="#c8d0d8" stroke-width="2"/>
+  <path d="M196 40 L216 40 L216 60" fill="none" stroke="#c8d0d8" stroke-width="2"/>
+  <path d="M216 196 L216 216 L196 216" fill="none" stroke="#c8d0d8" stroke-width="2"/>
+  <path d="M60 216 L40 216 L40 196" fill="none" stroke="#c8d0d8" stroke-width="2"/>
+  
+  <!-- Fractured jawbone - upper mandible -->
+  <path d="M68 100 L88 84 L110 80 L128 88 L146 80 L168 84 L188 100 
+           L180 108 L164 96 L148 92 L128 100 L108 92 L92 96 L76 108 Z" 
+        fill="none" stroke="#c8d0d8" stroke-width="2"/>
+  
+  <!-- Jawbone fracture lines - sharp angular cuts -->
+  <path d="M68 100 L76 108 L60 120 L68 132 L52 144" fill="none" stroke="#c8d0d8" stroke-width="1.5"/>
+  <path d="M188 100 L180 108 L196 120 L188 132 L204 144" fill="none" stroke="#c8d0d8" stroke-width="1.5"/>
+  
+  <!-- Lower jawbone - fractured -->
+  <path d="M68 156 L88 140 L110 136 L128 144 L146 136 L168 140 L188 156
+           L180 148 L164 156 L148 160 L128 152 L108 160 L92 156 L76 148 Z" 
+        fill="none" stroke="#c8d0d8" stroke-width="2"/>
+  
+  <!-- Jawbone fracture detail - core break -->
+  <path d="M100 120 L110 130 L104 142 L116 150" fill="none" stroke="#c8d0d8" stroke-width="1.5"/>
+  <path d="M156 120 L146 130 L152 142 L140 150" fill="none" stroke="#c8d0d8" stroke-width="1.5"/>
+  
+  <!-- Predator teeth - upper fangs -->
+  <polygon points="100,88 106,104 94,104" fill="none" stroke="#c8d0d8" stroke-width="1.5"/>
+  <polygon points="128,92 134,108 122,108" fill="none" stroke="#c8d0d8" stroke-width="1.5"/>
+  <polygon points="156,88 162,104 150,104" fill="none" stroke="#c8d0d8" stroke-width="1.5"/>
+  
+  <!-- Predator teeth - lower fangs -->
+  <polygon points="100,144 106,128 94,128" fill="none" stroke="#c8d0d8" stroke-width="1.5"/>
+  <polygon points="128,148 134,132 122,132" fill="none" stroke="#c8d0d8" stroke-width="1.5"/>
+  <polygon points="156,144 162,128 150,128" fill="none" stroke="#c8d0d8" stroke-width="1.5"/>
+  
+  <!-- Targeting reticle - central crosshair with offset -->
+  <path d="M128 108 L128 100 M128 148 L128 156 M108 128 L100 128 M156 128 L148 128" 
+        stroke="#ff3b2f" stroke-width="2"/>
+  
+  <!-- Center dot - aim point -->
+  <circle cx="128" cy="128" r="3" fill="#ff3b2f"/>
+  <circle cx="128" cy="128" r="7" fill="none" stroke="#ff3b2f" stroke-width="1"/>
+  
+  <!-- Fracture sparks / data fragments -->
+  <polyline points="84,100 78,94 82,88" fill="none" stroke="#39ff88" stroke-width="1.5"/>
+  <polyline points="172,100 178,94 174,88" fill="none" stroke="#39ff88" stroke-width="1.5"/>
+  <polyline points="84,156 78,162 82,168" fill="none" stroke="#39ff88" stroke-width="1.5"/>
+  <polyline points="172,156 178,162 174,168" fill="none" stroke="#39ff88" stroke-width="1.5"/>
+  
+  <!-- Terminal-style tick marks on reticle ring -->
+  <line x1="128" y1="20" x2="128" y2="30" stroke="#c8d0d8" stroke-width="2"/>
+  <line x1="128" y1="226" x2="128" y2="236" stroke="#c8d0d8" stroke-width="2"/>
+  <line x1="20" y1="128" x2="30" y2="128" stroke="#c8d0d8" stroke-width="2"/>
+  <line x1="226" y1="128" x2="236" y2="128" stroke="#c8d0d8" stroke-width="2"/>
+  
+  <!-- Corner diagonals - targeting acquisition -->
+  <line x1="40" y1="40" x2="52" y2="52" stroke="#39ff88" stroke-width="1.5"/>
+  <line x1="216" y1="40" x2="204" y2="52" stroke="#39ff88" stroke-width="1.5"/>
+  <line x1="40" y1="216" x2="52" y2="204" stroke="#39ff88" stroke-width="1.5"/>
+  <line x1="216" y1="216" x2="204" y2="204" stroke="#39ff88" stroke-width="1.5"/>
+  
+  <!-- Small code brackets - source code motif -->
+  <path d="M48 76 L42 82 L48 88" fill="none" stroke="#39ff88" stroke-width="1.5"/>
+  <path d="M208 76 L214 82 L208 88" fill="none" stroke="#39ff88" stroke-width="1.5"/>
+  
+  <!-- Scan lines - covert/terminal aesthetic -->
+  <line x1="70" y1="178" x2="186" y2="178" stroke="#c8d0d8" stroke-width="0.5" opacity="0.3"/>
+  <line x1="70" y1="184" x2="186" y2="184" stroke="#c8d0d8" stroke-width="0.5" opacity="0.2"/>
+  <line x1="70" y1="190" x2="186" y2="190" stroke="#c8d0d8" stroke-width="0.5" opacity="0.15"/>
+  
+  <!-- Fracture shards - small triangles -->
+  <polygon points="62,120 58,114 66,114" fill="none" stroke="#ff3b2f" stroke-width="1"/>
+  <polygon points="194,120 190,114 198,114" fill="none" stroke="#ff3b2f" stroke-width="1"/>
+  <polygon points="62,136 58,142 66,142" fill="none" stroke="#ff3b2f" stroke-width="1"/>
+  <polygon points="194,136 190,142 198,142" fill="none" stroke="#ff3b2f" stroke-width="1"/>
+  
+  <!-- Small wordmark -->
+  <text x="128" y="248" font-family="monospace" font-size="7" fill="#c8d0d8" 
+        text-anchor="middle" letter-spacing="3" opacity="0.5">APEX-ESP-SRC</text>
+</svg>
