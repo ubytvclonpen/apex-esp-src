@@ -1,0 +1,10 @@
+[package]
+name = "apex-esp-shim"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+windows = { version = "0.58", features = ["Win32_Foundation", "Win32_System_Memory"] }
